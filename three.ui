@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame_5">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>1800</width>
+      <height>960</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgba(255, 255, 255, 0.7);
+border: 10px solid #85D2CF;
+border-radius: 60px;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label11">
+     <property name="geometry">
+      <rect>
+       <x>590</x>
+       <y>260</y>
+       <width>700</width>
+       <height>341</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 0px solid #ffffff;
+font-family: Inter;
+font-style: normal;
+font-weight: 700;
+font-size: 120px;
+border-radius: 0px;
+color: #00BDC9;
+background: rgba(255, 255, 255, 0);</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;換液完成&lt;/p&gt;&lt;p&gt;請分離管組&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Finish_btn_2">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>700</y>
+       <width>1010</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QPushButton {
+	border-image:url(img/3-5.png);
+	border-bottom:0px solid #FFFFFF;
+	border-left:0px solid #FFFFFF;
+	border-right:0px solid #FFFFFF;
+	border-top:0px solid #FFFFFF;
+	border-radius: 0px;
+	background: rgba(255, 255, 255, 0);
+}
+QPushButton:hover {
+	margin:10px;
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>70</y>
+       <width>168</width>
+       <height>198</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QPushButton {
+	border-image:url(img/3-6.png);
+	border-bottom:0px solid #FFFFFF;
+	border-left:0px solid #FFFFFF;
+	border-right:0px solid #FFFFFF;
+	border-top:0px solid #FFFFFF;
+	border-radius: 0px;
+	background: rgba(255, 255, 255, 0);
+}
+QPushButton:hover {
+	margin:10px;
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_6">
+    <property name="geometry">
+     <rect>
+      <x>-1</x>
+      <y>-1</y>
+      <width>1921</width>
+      <height>1011</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QFrame" name="frame">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>130</y>
+       <width>770</width>
+       <height>700</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 10px solid #FF5555;
+border-radius: 60px;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="label_1">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>50</y>
+        <width>120</width>
+        <height>120</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 0px solid;
+border-image:url(img/3-2.png);
+border-radius: 0px;
+
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>50</y>
+        <width>420</width>
+        <height>110</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 0px solid;
+border-radius: 0px;
+font-family: Inter;
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 77px;
+color: #FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>加溫中...</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_Show_Temp_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>200</y>
+        <width>530</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 0px solid;
+border-radius: 0px;
+font-family: Inter;
+font-style: normal;
+font-weight: 700;
+font-size: 150px;
+line-height: 182px;
+text-align: center;
+color: #FFFFFF;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="text">
+       <string>33.5</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="heating_scroll">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>480</y>
+        <width>770</width>
+        <height>220</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 60px;
+background: #FF5555;
+border-bottom:0px solid #FF5555;
+border-left:0px solid #FF5555;
+border-right:0px solid #FF5555;
+border-top:0px solid #FF5555;
+color:#FFFFFF;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>270</y>
+        <width>101</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 0px solid;
+border-radius: 0px;
+font-family: Inter;
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 182px;
+text-align: center;
+color: #FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>℃</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="stopheating">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>520</y>
+        <width>680</width>
+        <height>150</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton {
+	border-radius: 60px;
+	background: #FFFFFF;
+	border:10px solid #E30505;
+	border-radius: 60px;
+	color: #E30505;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 80px;
+}
+QPushButton:hover {
+	margin:10px;
+}
+ 
+
+</string>
+      </property>
+      <property name="text">
+       <string>緊急停止加熱</string>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>790</width>
+        <height>481</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-bottom: 0px solid #FFFFFF;
+border-left: 0px solid #FFFFFF;
+border-right: 0px solid #FFFFFF;
+border-top: 0px solid #FFFFFF;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="label_1_1">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>50</y>
+         <width>120</width>
+         <height>120</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 0px solid;
+border-image:url(img/3-1.png);
+border-radius: 0px;
+
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2_1">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>50</y>
+         <width>420</width>
+         <height>110</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 0px solid;
+border-radius: 0px;
+font-family: Inter;
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 77px;
+color: #FF5555;</string>
+       </property>
+       <property name="text">
+        <string>加溫中...</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_Show_Temp">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>200</y>
+         <width>530</width>
+         <height>200</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 0px solid;
+border-radius: 0px;
+font-family: Inter;
+font-style: normal;
+font-weight: 700;
+font-size: 150px;
+line-height: 182px;
+text-align: center;
+color: #FF5555;</string>
+       </property>
+       <property name="text">
+        <string>33.5</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4_1">
+       <property name="geometry">
+        <rect>
+         <x>620</x>
+         <y>270</y>
+         <width>101</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 0px solid;
+border-radius: 0px;
+font-family: Inter;
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 182px;
+text-align: center;
+color: #FF5555;</string>
+       </property>
+       <property name="text">
+        <string>℃</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </widget>
+     <zorder>heating_scroll</zorder>
+     <zorder>label_1</zorder>
+     <zorder>label_2</zorder>
+     <zorder>label_Show_Temp_2</zorder>
+     <zorder>label_4</zorder>
+     <zorder>stopheating</zorder>
+     <zorder>frame_2</zorder>
+    </widget>
+    <widget class="QFrame" name="frame_3">
+     <property name="geometry">
+      <rect>
+       <x>1000</x>
+       <y>130</y>
+       <width>770</width>
+       <height>700</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 10px solid #00BDC9;
+border-radius: 60px;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QFrame" name="frame_4">
+      <property name="geometry">
+       <rect>
+        <x>-1</x>
+        <y>-1</y>
+        <width>770</width>
+        <height>220</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #00BDC9;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="label5">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>50</y>
+         <width>120</width>
+         <height>120</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-image:url(img/3-3.png);
+border-radius: 0px;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label6">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>50</y>
+         <width>401</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 0px solid;
+border-radius: 0px;
+font-family: Inter;
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 77px;
+color: #FFFFFF;</string>
+       </property>
+       <property name="text">
+        <string>已注入量</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_Show_Injection_2">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>220</y>
+         <width>530</width>
+         <height>200</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 0px solid;
+border-radius: 0px;
+font-family: Inter;
+font-style: normal;
+font-weight: 700;
+font-size: 200px;
+line-height: 182px;
+text-align: center;
+color: #FFFFFF;</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label8">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>470</y>
+         <width>450</width>
+         <height>200</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 0px solid;
+border-radius: 0px;
+font-family: Inter;
+font-style: normal;
+font-weight: 700;
+font-size: 128px;
+line-height: 182px;
+text-align: center;
+color: #FFFFFF;</string>
+       </property>
+       <property name="text">
+        <string>毫升</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label10">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>470</y>
+        <width>450</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 0px solid;
+border-radius: 0px;
+font-family: Inter;
+font-style: normal;
+font-weight: 700;
+font-size: 128px;
+line-height: 182px;
+text-align: center;
+color: #00BDC9;</string>
+      </property>
+      <property name="text">
+       <string>毫升</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_Show_Injection">
+      <property name="geometry">
+       <rect>
+        <x>119</x>
+        <y>220</y>
+        <width>530</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 0px solid;
+border-radius: 0px;
+font-family: Inter;
+font-style: normal;
+font-weight: 700;
+font-size: 200px;
+line-height: 182px;
+text-align: center;
+color: #00BDC9;</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <zorder>label10</zorder>
+     <zorder>label_Show_Injection</zorder>
+     <zorder>frame_4</zorder>
+    </widget>
+    <widget class="QPushButton" name="Finish_btn">
+     <property name="geometry">
+      <rect>
+       <x>560</x>
+       <y>850</y>
+       <width>800</width>
+       <height>140</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QPushButton {
+	border-image:url(img/3-4.png);
+
+}
+QPushButton:hover {
+	margin:10px;
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <zorder>frame_6</zorder>
+   <zorder>frame_5</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
